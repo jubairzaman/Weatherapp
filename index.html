@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap Link  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- main CSS  -->
+
+    <link rel="stylesheet" href="CSS/weather.css">
+
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+
+    <main>
+
+        <div class="card bg-dark text-white">
+            <img style="height: 100vh;" class="card-img" src="images/Bg.jpg" alt="Card image">
+            <div class="container card-img-overlay ">
+                <div class="input-group mb-3">
+                    <input id="input" type="text" class="form-control" placeholder="Recipient's username"
+                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button id="submit-button" class="btn bg-dark btn-outline-secondary"
+                            type="button">Submit</button>
+                    </div>
+                </div>
+                <div class=" mb-3 w-50 mx-auto">
+
+
+                    <div class="card text-white bg-primary mb-3 mx-auto" style="max-width: 50rem;">
+                        <div class="card-header text-center">
+                            <h1>Recent Weather Update</h1>
+                            <h1 id="city-name" class="text-white fs-1 fw-bold"> </h1>
+                        </div>
+                        <div class="card-body">
+                            <h5 id="weather" class="card-title text-white fs-3 fw-bold"></h5>
+                            <p id="temp" class="card-text text-white fs-3 fw-bold"> </p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+
+    </footer>
+
+
+    <script src="js/weather.js"></script>
+
+
+
+
+    <!-- JS Bootstrap Script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
